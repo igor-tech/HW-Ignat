@@ -1,0 +1,43 @@
+.sideBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    right: 230px;
+}
+
+.sideBar:hover {
+    right: 0px;
+}
+
+.btn {
+    width: 25px;
+    height: 25px;
+    background: greenyellow;
+}
+
+.preJunior {
+    padding: 5px;
+    color: darkred;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.preJunior:hover, .junior:hover, .juniorPlus:hover {
+    color: #4cdcb8;
+    transition: 0.4s;
+}
+
+.junior {
+    padding: 5px;
+    color: darkred;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.juniorPlus {
+    padding: 5px 25px 5px 5px;
+    color: darkred;
+    text-decoration: none;
+    transition: 0.4s;
+}

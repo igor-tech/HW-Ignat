@@ -1,0 +1,10 @@
+.finalPeople{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.people {
+    display: flex;
+    justify-content: space-between;
+
+}

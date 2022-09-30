@@ -5,7 +5,7 @@ import styles from './Header.module.css'
 function Header() {
     return (
         <div className={styles.sideBar}>
-            <div className={styles.link}>
+            <div>
                 <NavLink className={styles.preJunior} to={'/pre-junior'}>Pre-Junior</NavLink>
                 <NavLink className={styles.junior} to={'/junior'}>Junior</NavLink>
                 <NavLink className={styles.juniorPlus} to={'/junior-plus'}>Junior-Plus</NavLink>
